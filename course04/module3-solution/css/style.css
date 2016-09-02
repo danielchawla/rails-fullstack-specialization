@@ -1,0 +1,46 @@
+body {
+	font-family: Helvetica, serif;
+	background-color: #6D1A36;
+	color: #63535B; /*main font color*/
+}
+
+#header-nav {
+	background-color: #53917E;
+}
+
+
+.navbar-brand h1 {
+	font-family: Helvetica, serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 30px;
+	line-height: 0.75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #FCD0A1;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: #63535B;
+}
+
+
+
+section {
+	height: 1000px;
+	background-color: #B1B695;
+}
+
+section h3 {
+	padding-top: 20px;
+}
+
+h1, h2 {
+	color: #FCD0A1;
+}
