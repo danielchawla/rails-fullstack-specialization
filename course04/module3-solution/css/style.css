@@ -35,6 +35,13 @@ body {
 section {
 	height: 1000px;
 	background-color: #B1B695;
+	position: relative;
+}
+
+section a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 section h3 {
@@ -43,4 +50,10 @@ section h3 {
 
 h1, h2 {
 	color: #FCD0A1;
+}
+
+@media (max-width: 991px){
+	section {
+		height: 100%;
+	}
 }
